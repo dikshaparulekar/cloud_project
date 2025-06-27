@@ -18,7 +18,7 @@ A live weather forecast web app built with Python Flask, using the OpenWeather A
 
 ## 🌐 Live Demo
 
-**App URL**: [https://your-cloud-run-url.a.run.app  
+**App URL**:  
 (https://weather-app-612587411481.asia-south1.run.app)
 
 ---
