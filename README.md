@@ -1,30 +1,47 @@
-# Google Cloud DevOps Project: Deploying a Live Weather App on Cloud Run
+Weather Forecast App using Flask and Google Cloud
 
-Within this repository, you'll discover the essential source code and deployment files needed to orchestrate a live weather app on Cloud Run using Docker. 🌐🚀
+A live weather forecast web app built with Python Flask, using the OpenWeather API and deployed on Google Cloud Run. It stores the results in Google Cloud SQL (MySQL).
 
-## Overview
+Features:
+- Search live weather by city name
+- Uses OpenWeatherMap API for real-time data
+- Built with Python Flask
+- Containerized with Docker
+- Deployed to Google Cloud Run
+- Stores results in Google Cloud SQL
+- GitHub-integrated CI/CD using Cloud Build
 
-In this project, I'll walk you through building a Python weather app, containerizing it with Docker, and deploying it on Cloud Run. We'll leverage the OpenWeather API for live weather updates! 🐍🌦️ Moreover, the entire process will be automated with a CI/CD pipeline using Google Cloud Build! 🚀
+Live Demo:
+App URL: https://your-cloud-run-url.a.run.app
 
-## Key Highlights
+Technologies & GCP Services Used:
+- Python Flask (backend)
+- HTML (frontend with Jinja2)
+- Docker (containerization)
+- Google Cloud Run (hosting)
+- Cloud SQL (MySQL) (database)
+- Cloud Build (CI/CD automation)
+- Artifact Registry (stores Docker image)
+- Cloud Shell & Logging (debug & SQL access)
+- GitHub (version control)
+- OpenWeatherMap API
 
-- 🐍 Developed the application using Python.
-- 🌐 Integrated the robust OpenWeather API for precise and current weather information.
-- 📦 Deployed the app on Google Cloud Run as a Container.
-- ☁️ Automated the entire CI/CD pipeline seamlessly with Google Cloud Build and GitHub.
+Project Structure:
+weather-app/
+├── app.py
+├── var.py
+├── Dockerfile
+├── requirements.txt
+├── templates/
+│   └── index.html
 
-## Tools and Technology
+Run Locally:
+git clone https://github.com/dikshaparulekar/cloud_project.git
+cd cloud_project
+pip install -r requirements.txt
+python app.py
 
-- **Docker:** 🐳
-- **Cloud Run:** ☁️
-- **GitHub:** 🐙
-- **Python:** 🐍
-- **Google Cloud Build:** 🛠️
-- **OpenWeather API:** 🌦️
+Status:
+Project is complete and deployed on Google Cloud Run.
 
-## Resources
-
-Feel free to dive in, explore the code, and follow along with the blog for a comprehensive understanding of deploying a live weather app on Google Cloud using DevOps practices!
-
-Please refer below youtube video to deploy this weather-app on Google Cloud Run.
-https://youtu.be/jyuz0vfrFps
+Author: Diksha Parulekar
